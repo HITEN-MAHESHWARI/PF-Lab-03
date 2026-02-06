@@ -1,15 +1,21 @@
 #include <stdio.h>
 
 int main() {
-    int age = 18;
-    float height = 5.6;
-    double cgpa = 3.25;
-    char grade = 'A';
+    int a;
+    float b;
+    char c;
 
-    printf("Age: %d\n", age);
-    printf("Height: %.1f\n", height);
-    printf("CGPA: %.2lf\n", cgpa);
-    printf("Grade: %c\n", grade);
+    printf("Enter integer: ");
+    scanf("%d", &a);
+
+    printf("Enter float: ");
+    scanf("%f", &b);
+
+    printf("Enter character: ");
+    scanf(" %c", &c);
+
+    printf("You entered: %d %.2f %c", a, b, c);
     return 0;
 }
+
 
