@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 int main() {
-  printf("Hello! I'm Hiten Kalani");
+  printf("Welcome to Programming Fundamental\n");
+  printf("Spring 2026\n");
   return 0;
 }
